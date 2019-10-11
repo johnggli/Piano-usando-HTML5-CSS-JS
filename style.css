@@ -29,6 +29,10 @@ body {
     cursor: pointer;
 }
 
+.white-key.active {
+    background-color: #c0c0c0;
+}
+
 .black-key {
     position: absolute;
     width: 24px;
@@ -38,6 +42,10 @@ body {
     border-radius: 0 0 2px 2px;
     outline: none;
     cursor: pointer;
+}
+
+.black-key.active {
+    background-image: linear-gradient(#000000, #101010);
 }
 
 .Db4-key {
