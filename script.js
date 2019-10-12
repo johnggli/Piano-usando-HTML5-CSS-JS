@@ -1,4 +1,4 @@
-const C4 = new Audio("sounds/C4.mp3")
+const C4 = new Audio(src="sounds/C4.mp3")
 const Db4 = new Audio("sounds/Db4.mp3")
 const D4 = new Audio("sounds/D4.mp3")
 const Eb4 = new Audio("sounds/Eb4.mp3")
@@ -178,3 +178,57 @@ const playE5 = () => {
     setTimeout(() => E5key.classList.remove("active"), 200);
 };
 E5key.addEventListener("click", playE5);
+
+
+window.addEventListener("keydown", ({ keycode }) => {
+    // Press Q
+    if (keycode === 81) return playC4();
+
+    // Press 2
+    if (keycode === 50) return playDb4();
+
+    // Press W
+    if (keycode === 87) return playD4();
+
+    // Press 3
+    if (keycode === 51) return playEb4();
+
+    // Press E
+    if (keycode === 69) return playE4();
+
+    // Press R
+    if (keycode === 82) return playF4();
+
+    // Press 5
+    if (keycode === 53) return playGb4();
+
+    // Press T
+    if (keycode === 84) return playG4();
+
+    // Press 6
+    if (keycode === 54) return playAb4();
+
+    // Press Y
+    if (keycode === 89) return playA4();
+
+    // Press 7
+    if (keycode === 55) return playBb4();
+
+    // Press U
+    if (keycode === 85) return playB4();
+
+    // Press I
+    if (keycode === 73) return playC5();
+
+    // Press 9
+    if (keycode === 57) return playDb5();
+
+    // Press O
+    if (keycode === 79) return playD5();
+
+    // Press 0
+    if (keycode === 48) return playEb5();
+
+    // Press P
+    if (keycode === 80) return playE5();
+});
