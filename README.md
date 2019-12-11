@@ -1,7 +1,7 @@
-# Piano usando HTML5, CSS e JavaScript
-Piano simples, desenvolvido usando HTML5, CSS e JavaScript. Baseado no vídeo do canal CodeLab do youtube.
+# Piano using HTML5, CSS and JavaScript
+Simple piano, developed using HTML5, CSS and JavaScript.
 
-Link da página do projeto: https://johnemerson1406.github.io/Piano-usando-HTML5-CSS-JS
+Project site Link: https://johnemerson1406.github.io/Piano-usando-HTML5-CSS-JS
 
-## Créditos
-link do vídeo: https://www.youtube.com/watch?v=XcpJ1aWiy90
+## Credits
+youtube video link: https://www.youtube.com/watch?v=XcpJ1aWiy90
